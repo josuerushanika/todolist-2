@@ -44,9 +44,8 @@ input,
 button {
   appearance: none;
   border: none;
-
-  /* outline: none;
-    background: none;  */
+  outline: none;
+  background: none;
 }
 
 #new-task-input {
@@ -67,11 +66,9 @@ button {
   color: black;
   font-size: 1.25rem;
   font-weight: 700;
-
-  /* background-image: linear-gradient(to right, var(--pink),var(--purple)); */
+  background-image: linear-gradient(to right, var(--pink), var(--purple));
   cursor: pointer;
-
-  /* transition: 0.4s; */
+  transition: 0.4s;
 }
 
 #new-task-submit:hover {
@@ -111,12 +108,11 @@ main {
 }
 
 #tasks .task .content .text {
-  /* color: var(--light); */
+  color: var(--light);
   font-size: 1.125rem;
   width: 100%;
   display: block;
-
-  /* transition: 0.4s; */
+  transition: 0.4s;
 }
 
 #tasks .task .content .text:not(:read-only) {
@@ -145,5 +141,5 @@ main {
 }
 
 .task .actions .edit {
-    color: ;
+  color: white;
 }
